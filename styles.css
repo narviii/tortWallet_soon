@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  height: 50vh;
+  max-width: 800px;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  height: 20vh;
+  max-width: 700px;
+}
+
+.container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  height: 10vh;
+  max-width: 700px;
+}
+
+.hero {
+  margin: auto;
+  text-align: center;
+}
+
+.emailInput {
+  display: inline;
+  margin: 30px auto;
+}
+
+.tortLogo {
+  margin: auto;
+}
+
+.inputarea {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mainheading {
+  margin-bottom: 30px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #e0e5ec;
+}
+
+.copyright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.emailInput {
+  background-color: #e0e5ec;
+  font-size: 24px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  color: #ff0101;
+  height: 60px;
+  width: 60%;
+  -webkit-box-shadow: inset 9px 12px 16px #a3b1c680, inset -9px -12px 16px #ffffff80;
+          box-shadow: inset 9px 12px 16px #a3b1c680, inset -9px -12px 16px #ffffff80;
+}
+
+input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 550px) {
+  body .submitemail {
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    height: 60px;
+  }
+  body .inputarea {
+    display: block;
+    width: 95%;
+  }
+  body .emailInput {
+    margin: auto;
+    width: 100%;
+  }
+  body .container2 {
+    height: 30vh;
+  }
+  body .container {
+    width: 95%;
+  }
+}
+
+.submitemail {
+  margin: 0 0 0 50px;
+  background-color: #e0e5ec;
+  font-size: 24px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  color: #ff0101;
+  height: 60px;
+  width: 30%;
+  -webkit-box-shadow: 6px 6px 10px #a3b1c6, -6px -6px 10px #ffffff;
+          box-shadow: 6px 6px 10px #a3b1c6, -6px -6px 10px #ffffff;
+}
+
+.submitemail:hover {
+  -webkit-box-shadow: inset 9px 12px 16px #a3b1c680, inset -9px -12px 16px #ffffff80;
+          box-shadow: inset 9px 12px 16px #a3b1c680, inset -9px -12px 16px #ffffff80;
+}
+
+.submitemail:focus {
+  outline: none;
+}
+/*# sourceMappingURL=styles.css.map */
